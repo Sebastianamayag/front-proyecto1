@@ -121,5 +121,8 @@
       }
     }
   },
-  "defaultProject": "frontAcademiaMusica"
+  "defaultProject": "frontAcademiaMusica",
+  "cli": {
+    "analytics": false
+  }
 }
