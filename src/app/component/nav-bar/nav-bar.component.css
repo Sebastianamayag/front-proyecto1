@@ -1,0 +1,23 @@
+div.card {
+    background-color: #2e2731;  /* Green background with 30% opacity */
+  }
+div.card:hover{
+    background-color: white;
+}
+div.card:hover svg{
+    background-color: white;/* Green background with 30% opacity */
+    fill: #2e2731;
+}
+
+div.card:hover img{
+    /* Green background with 30% opacity */
+    filter: invert(0%);
+}
+svg {
+    fill: white; 
+    width: 50px;
+ }
+.menu{
+    width: 50px;
+    filter: invert(100%);
+}
