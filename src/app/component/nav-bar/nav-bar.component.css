@@ -8,11 +8,6 @@ div.card:hover svg{
     background-color: white;/* Green background with 30% opacity */
     fill: #2e2731;
 }
-
-div.card:hover img{
-    /* Green background with 30% opacity */
-    filter: invert(0%);
-}
 svg {
     fill: white; 
     width: 50px;
@@ -20,4 +15,12 @@ svg {
 .menu{
     width: 50px;
     filter: invert(100%);
+}
+
+li.active {
+    background-color: #702E28;
+}
+
+.nav-item:hover{
+    background-color: #702E28;
 }

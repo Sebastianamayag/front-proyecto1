@@ -7,22 +7,22 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto ">
-        <li class="nav-item active">
-          <a class="nav-link">Inicio</a>
+        <li class="nav-item " [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" >
+          <a class="nav-link" (click)="isCollapsed = true"  [routerLink]="['/home']">Inicio</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
-            aria-controls="collapseExample">Cursos</a>
+        <li class="nav-item" id="botonCursos" [routerLinkActive]="['active']">
+          <a class="nav-link" (click)="isCollapsed = !isCollapsed" 
+            [routerLink]="['/homeMenu']">Cursos</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link">Acerca de nosotros</a>
+        <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+          <a class="nav-link" (click)="isCollapsed = true" [routerLink]="['/aboutUs']">Acerca de nosotros</a>
         </li>
       </ul>
     </div>
   </nav>
 </div>
-<div id="collapseExample" [ngbCollapse]="isCollapsed">
-  <div class="d-flex justify-content-center row">
+<div id="collapseMenu" [ngbCollapse]="isCollapsed">
+  <div class="d-flex justify-content-center row" >
     <div class="col-sm-1" style="text-align: center;">
       <div class="card">
         <div class="card-body">

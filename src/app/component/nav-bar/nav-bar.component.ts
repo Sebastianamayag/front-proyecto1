@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-nav-bar',
@@ -11,7 +12,8 @@ export class NavBarComponent implements OnInit {
     
    }
 
-  public isCollapsed = false;
+  public activo = 'active';
+  public isCollapsed = true;
   ngOnInit(): void {
 
   }

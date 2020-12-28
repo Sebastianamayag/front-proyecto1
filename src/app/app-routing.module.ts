@@ -6,12 +6,22 @@ import {FooterComponent} from '../app/component/footer/footer.component';
 
 
 const routes:Routes=[  {
-  path: '',
+  path: 'home',
   component: HomeComponent,
   data: { title: 'Inicio' }
 },
 {
-  path: 'otra',
+  path: 'homeMenu',
+  component: HomeComponent,
+  data: { title: 'Inicio' }
+},
+{
+  path: 'cursos',
+  component: FooterComponent,
+  data: { title: 'Inicio' }
+},
+{
+  path: 'aboutUs',
   component: FooterComponent,
   data: { title: 'Inicio' }
 },
