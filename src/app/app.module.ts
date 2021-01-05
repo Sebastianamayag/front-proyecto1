@@ -7,13 +7,15 @@ import { NavBarComponent } from './component/nav-bar/nav-bar.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { HomeComponent } from './component/home/home.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { PriceBarComponent } from './component/price-bar/price-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    PriceBarComponent
   ],
   imports: [
     BrowserModule,
