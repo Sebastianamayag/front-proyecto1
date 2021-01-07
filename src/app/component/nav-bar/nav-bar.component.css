@@ -1,5 +1,5 @@
 div.card {
-    background-color: #2e2731;  /* Green background with 30% opacity */
+    background-color: hsla(300, 8%, 3%, 0.397);  /* Green background with 30% opacity */
   }
 div.card:hover{
     background-color: white;

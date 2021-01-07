@@ -1,12 +1,12 @@
 .price-bar {
-   display: inline-block; 
-   position: fixed;
-   background: white;
-   width: 100vw;
-   height: 4em;
-   bottom: 0;
-   align-items:start;
-   box-shadow: 0px 10px 8px 10px #21283A;
+    align-items:start;
+    background: white;
+    bottom: 0;
+    box-shadow: 0px 10px 8px 10px #21283A;
+    display: inline-block; 
+    height: 4em;
+    position: fixed;
+    width: 100vw; 
  }
 
 
