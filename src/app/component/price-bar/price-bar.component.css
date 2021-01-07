@@ -3,7 +3,7 @@
    position: fixed;
    background: white;
    width: 100vw;
-   height: 5em;
+   height: 4em;
    bottom: 0;
    align-items:start;
    box-shadow: 0px 10px 8px 10px #21283A;
@@ -16,7 +16,7 @@
 }
 
 .price-bar__h2 {
-   margin: 10px 50px;
+   margin: 0px 50px;
    font-size:20px;
    line-height:2.5em;
  }
@@ -25,7 +25,7 @@
    position: absolute;
    border-radius: 10px;
    align-items: center;
-   margin: 1.5em 50px;
+   margin: 10px 50px;
    height: 2.5em;
    width: 8em;
    right: 0;   
