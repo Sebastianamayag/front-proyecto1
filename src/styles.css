@@ -4,5 +4,61 @@
     overflow-y:scroll;
     overflow-x:hidden;
 }
+.picsum-img-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.picsum-img-wrapper .img{
+    border-radius: 10px;
+}
+.picsum-img-wrapper .img_clas .img {
+    margin-top: 40px !important;
+    -moz-transform: rotate(-10deg) !important;
+    -o-transform: rotate(-10deg) !important;
+    -webkit-transform: rotate(-10deg) !important;
+    transform: rotate(-10deg) !important;
+    position: absolute !important;
+}
+
+.picsum-img-wrapper .img{
+    width: 20vw;
+    height: 50vh;
+}
+
+.picsum-img-wrapper .img_class{
+    margin:  30px 0 0 50px;
+    -moz-transform: rotate(-10deg) !important;
+    -o-transform: rotate(-10deg) !important;
+    -webkit-transform: rotate(-10deg) !important;
+    transform: rotate(-10deg) !important;
+}
+.picsum-img-wrapper .bg_primary{
+    background-color:  #702E28;
+    padding: 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.about p {
+    text-align: left;
+    color: white;
+    margin: 0 30px;
+}
+
+.content_profesor p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px 0 0 0;
+}
 
 

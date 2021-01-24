@@ -61,9 +61,26 @@
     </div>
   </div>
   
-    
-      
-   
+        
+  <ngb-carousel>
+    <ng-template *ngFor="let pelicula of peliculas" ngbSlide>
+      <div class="picsum-img-wrapper">
+        <div>
+          <img class="img img_class" src="{{pelicula.img}}" alt="Random first slide" >
+        </div>
+        <div class="bg_primary">
+          <div class="about">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero maiores minus exercitationem quidem corporis? Quae nobis repellat laborum esse praesentium quidem tenetur perspiciatis harum? Esse dolor fugiat iure similique deserunt?</p>
+          </div>
+          <div class="content_profesor">
+            <p>Profesor #1</p>
+            <img class="img" src="{{pelicula.img}}" alt="Random first slide" >
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  
     
   </div>
   <!-- /.container -->
