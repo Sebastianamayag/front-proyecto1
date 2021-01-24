@@ -29,13 +29,15 @@
 
 .picsum-img-wrapper .img_class{
     margin:  30px 0 0 50px;
-    -moz-transform: rotate(-10deg) !important;
-    -o-transform: rotate(-10deg) !important;
-    -webkit-transform: rotate(-10deg) !important;
-    transform: rotate(-10deg) !important;
+    -moz-transform: rotate(-10deg) ;
+    -o-transform: rotate(-10deg) ;
+    -webkit-transform: rotate(-10deg) ;
+    transform: rotate(-10deg) ;
+    
 }
 .picsum-img-wrapper .bg_primary{
     background-color:  #702E28;
+    margin-left: -50px;
     padding: 10px;
     border-radius: 7px;
     display: flex;
@@ -52,6 +54,7 @@
     text-align: left;
     color: white;
     margin: 0 30px;
+    margin-left: 100px;
 }
 
 .content_profesor p{
@@ -61,4 +64,6 @@
     margin: 20px 0 0 0;
 }
 
-
+.carousel-indicators{
+    margin-top: 100px;
+}
