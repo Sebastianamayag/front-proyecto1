@@ -61,10 +61,21 @@
     </div>
   </div>
   
-    
-      
-   
-    
-  </div>
+</div>
   <!-- /.container -->
-  
+
+
+  <div class="noticies-container">
+    <div class="noticies-child noticies-container__first">
+      <h1>{{noticies[noticies.length-1].title}}</h1>
+    </div>
+    <div class ="noticies-child noticies-container__list">
+      <div *ngFor="let noticie of noticies; last as l">
+        <div *ngIf="!l" class="list-tile">
+          <h2>{{noticie.title}}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
