@@ -61,28 +61,21 @@
     </div>
   </div>
   
-        
-  <ngb-carousel>
-    <ng-template *ngFor="let pelicula of peliculas" ngbSlide>
-      <div class="picsum-img-wrapper">
-        <div class="hidenn">
-          <img class="img img_class" src="{{pelicula.img}}" alt="Random first slide" >
-        </div>
-        <div class="bg_primary">
-          <div class="about">
-            <p class="number">Profesor #1</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero maiores minus exercitationem quidem corporis? Quae nobis repellat laborum esse praesentium quidem tenetur perspiciatis harum? Esse dolor fugiat iure similique deserunt?</p>
-          </div>
-          <div class="content_profesor">
-            <p>Profesor #1</p>
-            <img class="img" src="{{pelicula.img}}" alt="Random first slide" >
-          </div>
+</div>
+  <!-- /.container -->
+
+
+  <div class="noticies-container">
+    <div class="noticies-child noticies-container__first">
+      <h1>{{noticies[noticies.length-1].title}}</h1>
+    </div>
+    <div class ="noticies-child noticies-container__list">
+      <div *ngFor="let noticie of noticies; last as l">
+        <div *ngIf="!l" class="list-tile">
+          <h2>{{noticie.title}}</h2>
         </div>
       </div>
-    </ng-template>
-  </ngb-carousel>
-  
-    
+    </div>
   </div>
-  <!-- /.container -->
-  
+
+ 

@@ -21,98 +21,31 @@ img{
 }
 
 
-/*stykles carrousel profesor*/
+.noticies-container{
+ display: flex;
+ flex-wrap: wrap;
+}
+.noticies-child{
+  height: 400px;
+  width: 600px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 18px;
+  background-color:aqua;
+}
 
-.picsum-img-wrapper{
+.noticies-container__list{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
-.picsum-img-wrapper .img{
-  border-radius: 10px;
+.list-tile{
+  height: 200px;
+  width: max-content;
+  margin-bottom: 20px;
+  background-color:gold;
+
 }
 
-.picsum-img-wrapper .img{
-  width: 20vw;
-  height: 50vh;
-}
-
-.picsum-img-wrapper .img_class{
-  margin:  30px 0 0 50px;
-  -moz-transform: rotate(-10deg) ;
-  -o-transform: rotate(-10deg) ;
-  -webkit-transform: rotate(-10deg) ;
-  transform: rotate(-10deg) ;
-}
-.picsum-img-wrapper .bg_primary{
-  background-color:  #702E28;
-  margin-left: -50px;
-  padding: 10px;
-  border-radius: 7px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-
-
-.about{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.about p {
-  text-align: left;
-  color: white;
-  margin: 0 30px;
-  margin-left: 100px;
-}
-
-.content_profesor p{
-  color: white;
-  text-align: center;
-  font-size: 25px;
-  margin: 20px 0 0 0;
-}
-@media (max-width: 576px) { 
-  .picsum-img-wrapper{
-    flex-direction: row-reverse;
-  } 
-  .picsum-img-wrapper .img_class{
-    margin: 20px 0 ;
-    transform: none;
-    height: 30vh;
-    margin-left: -10vw;
-    position:relative;
-  }
-  .hidenn{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .about{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .number{
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  .content_profesor{
-    display: none;
-  }
-  .about p{
-    margin-right: 10vw;
-  }
-}
-@media(min-width:576px){
-  .number{
-    display: none;
-  }
-}
-.carousel-indicators{
-  margin-top: 100px;
-}
