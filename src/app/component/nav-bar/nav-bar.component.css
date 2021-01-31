@@ -1,5 +1,5 @@
 div.card {
-    background-color: hsla(300, 8%, 3%, 0.397);  /* Green background with 30% opacity */
+    background-color: hsla(300, 8%, 3%, 0.397); /* Green background with 30% opacity */
   }
 div.card:hover{
     background-color: white;
@@ -24,3 +24,18 @@ li.active {
 .nav-item:hover{
     background-color: #702E28;
 }
+img{
+    height: 50px;
+    margin-top: 1em;
+}
+.navbar{
+    margin-top: 0em;
+    padding-top: 0em ;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    width: 270px;
+    margin-bottom: 0em;
+  }
