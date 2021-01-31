@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import {HomeComponent} from '../app/component/home/home.component';
 import {FooterComponent} from '../app/component/footer/footer.component';
+import {CourseComponent} from '../app/component/course/course.component';
 
 
 const routes:Routes=[  {
@@ -16,8 +17,8 @@ const routes:Routes=[  {
   data: { title: 'Inicio' }
 },
 {
-  path: 'cursos',
-  component: FooterComponent,
+  path: 'curso/:id',
+  component: CourseComponent,
   data: { title: 'Inicio' }
 },
 {

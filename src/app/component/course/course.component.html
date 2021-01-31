@@ -1,0 +1,25 @@
+<div class="container">
+
+  <h2>Curso</h2>
+        <img src="../../../assets/Guitar banner.jpg" class="img-fluid" alt="Course">
+        
+        <h3>Implementos:</h3>
+        <ul>
+          <li>instrumento</li>
+          <li>Cartilla</li>
+        </ul>
+
+        <h3>Contenido:</h3>
+        <ngb-carousel>
+          <ng-template *ngFor="let pelicula of peliculas" ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="{{pelicula.img}}" alt="Random first slide" >
+            </div>
+            <div class="carousel-caption">
+              <h3>{{pelicula.name}}</h3>
+              <p>{{pelicula.desc}}</p>
+            </div>
+          </ng-template>
+        </ngb-carousel>
+</div>
+    
