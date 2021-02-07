@@ -9,6 +9,7 @@ import { HomeComponent } from './component/home/home.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { PriceBarComponent } from './component/price-bar/price-bar.component';
 import { CourseComponent } from './component/course/course.component';
+import { AboutComponent } from './component/about/about.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CourseComponent } from './component/course/course.component';
     FooterComponent,
     HomeComponent,
     PriceBarComponent,
-    CourseComponent
+    CourseComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
