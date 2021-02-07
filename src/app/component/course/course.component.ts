@@ -19,13 +19,14 @@ export class CourseComponent implements OnInit {
     }
   ];
 
+  id:string ='';
   constructor(private activated:ActivatedRoute) { 
-    
+  
   }
 
   ngOnInit(): void {
-    const id=this.activated.snapshot.params.id;
-    console.log(id);
+    this.id=this.activated.snapshot.params.id;
+    console.log(this.id);
   }
 
 }

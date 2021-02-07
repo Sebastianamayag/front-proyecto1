@@ -31,7 +31,7 @@
       </div>
     </div>
   </div>
-  <div class="row row-cols-1 row-cols-md-3  ">
+  <div class="row row-cols-1 row-cols-md-3 ">
     <div class="col mb-4">
       <div class="card">
         <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top" alt="...">
@@ -60,16 +60,11 @@
       </div>
     </div>
   </div>
-  
-</div>
-  <!-- /.container -->
-
-
   <div class="noticies-container">
-    <div class="noticies-child noticies-container__first">
+    <div class="noticies-child noticies-container__first col mb-7">
       <h1>{{noticies[noticies.length-1].title}}</h1>
     </div>
-    <div class ="noticies-child noticies-container__list">
+    <div class ="noticies-child noticies-container__list col mb-5">
       <div *ngFor="let noticie of noticies; last as l">
         <div *ngIf="!l" class="list-tile">
           <h2>{{noticie.title}}</h2>
@@ -78,4 +73,8 @@
     </div>
   </div>
 
+</div>
+  <!-- /.container -->
+
+  
  
